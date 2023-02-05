@@ -282,19 +282,6 @@ Nucleo_64.build.st_extra_flags=-D{build.product_line} {build.enable_usb} {build.
 Nucleo_64.upload.maximum_size=0
 Nucleo_64.upload.maximum_data_size=0
 
-# NUCLEO_C031C6 board
-Nucleo_64.menu.pnum.NUCLEO_C031C6=Nucleo C031C6
-Nucleo_64.menu.pnum.NUCLEO_C031C6.node="NOD_C031C6"
-Nucleo_64.menu.pnum.NUCLEO_C031C6.upload.maximum_size=32768
-Nucleo_64.menu.pnum.NUCLEO_C031C6.upload.maximum_data_size=12288
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.mcu=cortex-m0plus
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.board=NUCLEO_C031C6
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.series=STM32C0xx
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.product_line=STM32C031xx
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.variant=STM32C0xx/C031C(4-6)(T-U)
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.cmsis_lib_gcc=arm_cortexM0l_math
-Nucleo_64.menu.pnum.NUCLEO_C031C6.build.extra_flags=-D{build.product_line} {build.xSerial} -D__CORTEX_SC=0
-
 # NUCLEO_F030R8 board
 Nucleo_64.menu.pnum.NUCLEO_F030R8=Nucleo F030R8
 Nucleo_64.menu.pnum.NUCLEO_F030R8.node="NODE_F030R8,NUCLEO"
@@ -385,7 +372,7 @@ Nucleo_64.menu.pnum.NUCLEO_F303RE.build.cmsis_lib_gcc=arm_cortexM4lf_math
 
 # NUCLEO_F401RE board
 Nucleo_64.menu.pnum.NUCLEO_F401RE=Nucleo F401RE
-Nucleo_64.menu.pnum.NUCLEO_F401RE.node="NODE_F401RE,NUCLEO"
+Nucleo_64.menu.pnum.NUCLEO_F401RE.node=NODE_F401RE
 Nucleo_64.menu.pnum.NUCLEO_F401RE.upload.maximum_size=524288
 Nucleo_64.menu.pnum.NUCLEO_F401RE.upload.maximum_data_size=98304
 Nucleo_64.menu.pnum.NUCLEO_F401RE.build.mcu=cortex-m4
@@ -598,20 +585,6 @@ Nucleo_64.menu.pnum.NUCLEO_L476RG.build.series=STM32L4xx
 Nucleo_64.menu.pnum.NUCLEO_L476RG.build.product_line=STM32L476xx
 Nucleo_64.menu.pnum.NUCLEO_L476RG.build.variant=STM32L4xx/L475R(C-E-G)T_L476R(C-E-G)T_L486RGT
 Nucleo_64.menu.pnum.NUCLEO_L476RG.build.cmsis_lib_gcc=arm_cortexM4lf_math
-
-# NUCLEO_WB15CC
-Nucleo_64.menu.pnum.NUCLEO_WB15CC=Nucleo WB15CC
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.node="NOD_WB15CC"
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.upload.maximum_size=131072
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.upload.maximum_data_size=12288
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.mcu=cortex-m4
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.fpu=-mfpu=fpv4-sp-d16
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.float-abi=-mfloat-abi=hard
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.board=NUCLEO_WB15CC
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.series=STM32WBxx
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.product_line=STM32WB15xx
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.variant=STM32WBxx/WB15CCU
-Nucleo_64.menu.pnum.NUCLEO_WB15CC.build.cmsis_lib_gcc=arm_cortexM4lf_math
 
 # P_NUCLEO_WB55RG board
 Nucleo_64.menu.pnum.P_NUCLEO_WB55RG=P-Nucleo WB55RG
@@ -883,19 +856,6 @@ Disco.menu.pnum.B_U585I_IOT02A.build.variant=STM32U5xx/U575A(G-I)IxQ_U585AIIxQ
 Disco.menu.pnum.B_U585I_IOT02A.build.peripheral_pins=-DCUSTOM_PERIPHERAL_PINS
 Disco.menu.pnum.B_U585I_IOT02A.build.cmsis_lib_gcc=arm_ARMv8MMLlfsp_math
 
-# STM32C0316-DK board
-Disco.menu.pnum.STM32C0316_DK=STM32C0316-DK
-Disco.menu.pnum.STM32C0316_DK.node="No_mass_storage_for_this_board_Use_STLink_upload_method"
-Disco.menu.pnum.STM32C0316_DK.upload.maximum_size=32768
-Disco.menu.pnum.STM32C0316_DK.upload.maximum_data_size=12288
-Disco.menu.pnum.STM32C0316_DK.build.mcu=cortex-m0plus
-Disco.menu.pnum.STM32C0316_DK.build.board=STM32C0316_DK
-Disco.menu.pnum.STM32C0316_DK.build.series=STM32C0xx
-Disco.menu.pnum.STM32C0316_DK.build.product_line=STM32C031xx
-Disco.menu.pnum.STM32C0316_DK.build.variant=STM32C0xx/C031C(4-6)(T-U)
-Disco.menu.pnum.STM32C0316_DK.build.cmsis_lib_gcc=arm_cortexM0l_math
-Disco.menu.pnum.STM32C0316_DK.build.extra_flags=-D{build.product_line} {build.xSerial} -D__CORTEX_SC=0
-
 # DISCO_F030R8 board
 Disco.menu.pnum.DISCO_F030R8=STM32F030R8-DISCVL
 Disco.menu.pnum.DISCO_F030R8.node="No_mass_storage_for_this_board_Use_STLink_upload_method"
@@ -1115,60 +1075,6 @@ STM32MP1.menu.pnum.STM32MP157C_DK2.build.peripheral_pins=-DCUSTOM_PERIPHERAL_PIN
 STM32MP1.menu.upload_method.MassStorage=Generate run_arduino.sh (You need to copy this manually)
 STM32MP1.menu.upload_method.MassStorage.upload.protocol=
 STM32MP1.menu.upload_method.MassStorage.upload.tool=remoteproc_gen
-
-###############################
-# Generic C0
-GenC0.name=Generic STM32C0 series
-
-GenC0.build.core=arduino
-GenC0.build.board=GenC0
-GenC0.build.mcu=cortex-m0plus
-GenC0.build.series=STM32C0xx
-GenC0.build.cmsis_lib_gcc=arm_cortexM0l_math
-GenC0.build.extra_flags=-D{build.product_line} {build.xSerial} -D__CORTEX_SC=0
-
-# Generic C031C4Tx
-GenC0.menu.pnum.GENERIC_C031C4TX=Generic C031C4Tx
-GenC0.menu.pnum.GENERIC_C031C4TX.upload.maximum_size=16384
-GenC0.menu.pnum.GENERIC_C031C4TX.upload.maximum_data_size=12288
-GenC0.menu.pnum.GENERIC_C031C4TX.build.board=GENERIC_C031C4TX
-GenC0.menu.pnum.GENERIC_C031C4TX.build.product_line=STM32C031xx
-GenC0.menu.pnum.GENERIC_C031C4TX.build.variant=STM32C0xx/C031C(4-6)(T-U)
-
-# Generic C031C6Tx
-GenC0.menu.pnum.GENERIC_C031C6TX=Generic C031C6Tx
-GenC0.menu.pnum.GENERIC_C031C6TX.upload.maximum_size=32768
-GenC0.menu.pnum.GENERIC_C031C6TX.upload.maximum_data_size=12288
-GenC0.menu.pnum.GENERIC_C031C6TX.build.board=GENERIC_C031C6TX
-GenC0.menu.pnum.GENERIC_C031C6TX.build.product_line=STM32C031xx
-GenC0.menu.pnum.GENERIC_C031C6TX.build.variant=STM32C0xx/C031C(4-6)(T-U)
-
-# Generic C031C4Ux
-GenC0.menu.pnum.GENERIC_C031C4UX=Generic C031C4Ux
-GenC0.menu.pnum.GENERIC_C031C4UX.upload.maximum_size=16384
-GenC0.menu.pnum.GENERIC_C031C4UX.upload.maximum_data_size=12288
-GenC0.menu.pnum.GENERIC_C031C4UX.build.board=GENERIC_C031C4UX
-GenC0.menu.pnum.GENERIC_C031C4UX.build.product_line=STM32C031xx
-GenC0.menu.pnum.GENERIC_C031C4UX.build.variant=STM32C0xx/C031C(4-6)(T-U)
-
-# Generic C031C6Ux
-GenC0.menu.pnum.GENERIC_C031C6UX=Generic C031C6Ux
-GenC0.menu.pnum.GENERIC_C031C6UX.upload.maximum_size=32768
-GenC0.menu.pnum.GENERIC_C031C6UX.upload.maximum_data_size=12288
-GenC0.menu.pnum.GENERIC_C031C6UX.build.board=GENERIC_C031C6UX
-GenC0.menu.pnum.GENERIC_C031C6UX.build.product_line=STM32C031xx
-GenC0.menu.pnum.GENERIC_C031C6UX.build.variant=STM32C0xx/C031C(4-6)(T-U)
-
-# Upload menu
-GenC0.menu.upload_method.swdMethod=STM32CubeProgrammer (SWD)
-GenC0.menu.upload_method.swdMethod.upload.protocol=0
-GenC0.menu.upload_method.swdMethod.upload.options=-g
-GenC0.menu.upload_method.swdMethod.upload.tool=stm32CubeProg
-
-GenC0.menu.upload_method.serialMethod=STM32CubeProgrammer (Serial)
-GenC0.menu.upload_method.serialMethod.upload.protocol=1
-GenC0.menu.upload_method.serialMethod.upload.options={serial.port.file} -s
-GenC0.menu.upload_method.serialMethod.upload.tool=stm32CubeProg
 
 ###############################
 # Generic F0
@@ -9626,14 +9532,6 @@ GenWB.build.cmsis_lib_gcc=arm_cortexM4lf_math
 GenWB.upload.maximum_size=0
 GenWB.upload.maximum_data_size=0
 
-# Generic WB15CCUx
-GenWB.menu.pnum.GENERIC_WB15CCUX=Generic WB15CCUx
-GenWB.menu.pnum.GENERIC_WB15CCUX.upload.maximum_size=131072
-GenWB.menu.pnum.GENERIC_WB15CCUX.upload.maximum_data_size=12288
-GenWB.menu.pnum.GENERIC_WB15CCUX.build.board=GENERIC_WB15CCUX
-GenWB.menu.pnum.GENERIC_WB15CCUX.build.product_line=STM32WB15xx
-GenWB.menu.pnum.GENERIC_WB15CCUX.build.variant=STM32WBxx/WB15CCU
-
 # Generic WB55CCUx
 GenWB.menu.pnum.GENERIC_WB55CCUX=Generic WB55CCUx
 GenWB.menu.pnum.GENERIC_WB55CCUX.upload.maximum_size=131072
@@ -10535,6 +10433,39 @@ Midatronics.menu.upload_method.dfuMethod.upload.options=-g
 Midatronics.menu.upload_method.dfuMethod.upload.tool=stm32CubeProg
 
 ################################################################################
+# Geekaixpress boards
+
+Geekaixpress.name=Geekaixpress boards
+
+Geekaixpress.build.core=arduino
+Geekaixpress.build.board=Geekaixpress
+Geekaixpress.build.variant_h=variant_{build.board}.h
+Geekaixpress.build.st_extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial}
+Geekaixpress.upload.maximum_size=0
+Geekaixpress.upload.maximum_data_size=0
+
+# EyeCube board
+Geekaixpress.menu.pnum.EYECUBE=EyeCube
+Geekaixpress.menu.pnum.EYECUBE.node="NODE_WB55CG,NOD_WB55CG"
+Geekaixpress.menu.pnum.EYECUBE.upload.maximum_size=1048576
+Geekaixpress.menu.pnum.EYECUBE.upload.maximum_data_size=262144
+Geekaixpress.menu.pnum.EYECUBE.build.mcu=cortex-m4
+Geekaixpress.menu.pnum.EYECUBE.build.fpu=-mfpu=fpv4-sp-d16
+Geekaixpress.menu.pnum.EYECUBE.build.float-abi=-mfloat-abi=hard
+Geekaixpress.menu.pnum.EYECUBE.build.board=EYECUBE
+Geekaixpress.menu.pnum.EYECUBE.build.series=STM32WBxx
+Geekaixpress.menu.pnum.EYECUBE.build.product_line=STM32WB55xx
+Geekaixpress.menu.pnum.EYECUBE.build.variant=STM32WBxx/WB35C(C-E)UxA_WB55C(C-E-G)U
+Geekaixpress.menu.pnum.EYECUBE.build.cmsis_lib_gcc=arm_cortexM4lf_math
+
+# Upload menu
+
+Geekaixpress.menu.upload_method.dfuMethod=STM32CubeProgrammer (DFU)
+Geekaixpress.menu.upload_method.dfuMethod.upload.protocol=2
+Geekaixpress.menu.upload_method.dfuMethod.upload.options=-g
+Geekaixpress.menu.upload_method.dfuMethod.upload.tool=stm32CubeProg
+
+################################################################################
 # Serialx activation
 Nucleo_144.menu.xserial.generic=Enabled (generic 'Serial')
 Nucleo_144.menu.xserial.none=Enabled (no generic 'Serial')
@@ -10579,12 +10510,6 @@ STM32MP1.menu.xserial.none=UART only (no generic 'Serial')
 STM32MP1.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERIAL_NONE
 STM32MP1.menu.xserial.disabled=Disabled (no Serial support)
 STM32MP1.menu.xserial.disabled.build.xSerial=
-
-GenC0.menu.xserial.generic=Enabled (generic 'Serial')
-GenC0.menu.xserial.none=Enabled (no generic 'Serial')
-GenC0.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERIAL_NONE
-GenC0.menu.xserial.disabled=Disabled (no Serial support)
-GenC0.menu.xserial.disabled.build.xSerial=
 
 GenF0.menu.xserial.generic=Enabled (generic 'Serial')
 GenF0.menu.xserial.none=Enabled (no generic 'Serial')
@@ -10729,6 +10654,12 @@ Midatronics.menu.xserial.none=Enabled (no generic 'Serial')
 Midatronics.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERIAL_NONE
 Midatronics.menu.xserial.disabled=Disabled (No Serial support)
 Midatronics.menu.xserial.disabled.build.xSerial=
+
+Geekaixpress.menu.xserial.generic=Enabled (generic 'Serial')
+Geekaixpress.menu.xserial.none=Enabled (no generic 'Serial')
+Geekaixpress.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERIAL_NONE
+Geekaixpress.menu.xserial.disabled=Disabled (No Serial support)
+Geekaixpress.menu.xserial.disabled.build.xSerial=
 
 # USB connectivity
 Nucleo_144.menu.usb.none=None
@@ -11053,6 +10984,17 @@ Midatronics.menu.xusb.HS.build.usb_speed=-DUSE_USB_HS
 Midatronics.menu.xusb.HSFS=High Speed in Full Speed mode
 Midatronics.menu.xusb.HSFS.build.usb_speed=-DUSE_USB_HS -DUSE_USB_HS_IN_FS
 
+Geekaixpress.menu.usb.none=None
+Geekaixpress.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
+Geekaixpress.menu.usb.CDCgen.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC
+Geekaixpress.menu.usb.HID=HID (keyboard and mouse)
+Geekaixpress.menu.usb.HID.build.enable_usb={build.usb_flags} -DUSBD_USE_HID_COMPOSITE
+Geekaixpress.menu.xusb.FS=Low/Full Speed
+Geekaixpress.menu.xusb.HS=High Speed
+Geekaixpress.menu.xusb.HS.build.usb_speed=-DUSE_USB_HS
+Geekaixpress.menu.xusb.HSFS=High Speed in Full Speed mode
+Geekaixpress.menu.xusb.HSFS.build.usb_speed=-DUSE_USB_HS -DUSE_USB_HS_IN_FS
+
 # Optimizations
 Nucleo_144.menu.opt.osstd=Smallest (-Os default)
 Nucleo_144.menu.opt.oslto=Smallest (-Os) with LTO
@@ -11173,24 +11115,6 @@ STM32MP1.menu.opt.ogstd=Debug (-Og)
 STM32MP1.menu.opt.ogstd.build.flags.optimize=-Og
 STM32MP1.menu.opt.o0std=No Optimization (-O0)
 STM32MP1.menu.opt.o0std.build.flags.optimize=-O0
-
-GenC0.menu.opt.osstd=Smallest (-Os default)
-GenC0.menu.opt.oslto=Smallest (-Os) with LTO
-GenC0.menu.opt.oslto.build.flags.optimize=-Os -flto
-GenC0.menu.opt.o1std=Fast (-O1)
-GenC0.menu.opt.o1std.build.flags.optimize=-O1
-GenC0.menu.opt.o1lto=Fast (-O1) with LTO
-GenC0.menu.opt.o1lto.build.flags.optimize=-O1 -flto
-GenC0.menu.opt.o2std=Faster (-O2)
-GenC0.menu.opt.o2std.build.flags.optimize=-O2
-GenC0.menu.opt.o2lto=Faster (-O2) with LTO
-GenC0.menu.opt.o2lto.build.flags.optimize=-O2 -flto
-GenC0.menu.opt.o3std=Fastest (-O3)
-GenC0.menu.opt.o3std.build.flags.optimize=-O3
-GenC0.menu.opt.o3lto=Fastest (-O3) with LTO
-GenC0.menu.opt.o3lto.build.flags.optimize=-O3 -flto
-GenC0.menu.opt.ogstd=Debug (-Og)
-GenC0.menu.opt.ogstd.build.flags.optimize=-Og
 
 GenF0.menu.opt.osstd=Smallest (-Os default)
 GenF0.menu.opt.oslto=Smallest (-Os) with LTO
@@ -11673,6 +11597,26 @@ Midatronics.menu.opt.ogstd.build.flags.optimize=-Og
 Midatronics.menu.opt.o0std=No Optimization (-O0)
 Midatronics.menu.opt.o0std.build.flags.optimize=-O0
 
+Geekaixpress.menu.opt.osstd=Smallest (-Os default)
+Geekaixpress.menu.opt.oslto=Smallest (-Os) with LTO
+Geekaixpress.menu.opt.oslto.build.flags.optimize=-Os -flto
+Geekaixpress.menu.opt.o1std=Fast (-O1)
+Geekaixpress.menu.opt.o1std.build.flags.optimize=-O1
+Geekaixpress.menu.opt.o1lto=Fast (-O1) with LTO
+Geekaixpress.menu.opt.o1lto.build.flags.optimize=-O1 -flto
+Geekaixpress.menu.opt.o2std=Faster (-O2)
+Geekaixpress.menu.opt.o2std.build.flags.optimize=-O2
+Geekaixpress.menu.opt.o2lto=Faster (-O2) with LTO
+Geekaixpress.menu.opt.o2lto.build.flags.optimize=-O2 -flto
+Geekaixpress.menu.opt.o3std=Fastest (-O3)
+Geekaixpress.menu.opt.o3std.build.flags.optimize=-O3
+Geekaixpress.menu.opt.o3lto=Fastest (-O3) with LTO
+Geekaixpress.menu.opt.o3lto.build.flags.optimize=-O3 -flto
+Geekaixpress.menu.opt.ogstd=Debug (-Og)
+Geekaixpress.menu.opt.ogstd.build.flags.optimize=-Og
+Geekaixpress.menu.opt.o0std=No Optimization (-O0)
+Geekaixpress.menu.opt.o0std.build.flags.optimize=-O0
+
 # Debug information
 Nucleo_144.menu.dbg.none=None
 Nucleo_144.menu.dbg.enable_sym=Symbols Enabled (-g)
@@ -11721,10 +11665,6 @@ STM32MP1.menu.dbg.enable_log=Core logs Enabled
 STM32MP1.menu.dbg.enable_log.build.flags.debug=
 STM32MP1.menu.dbg.enable_all=Core Logs and Symbols Enabled (-g)
 STM32MP1.menu.dbg.enable_all.build.flags.debug=-g
-
-GenC0.menu.dbg.none=None
-GenC0.menu.dbg.enable=Enabled (-g)
-GenC0.menu.dbg.enable.build.flags.debug=-g
 
 GenF0.menu.dbg.none=None
 GenF0.menu.dbg.enable_sym=Symbols Enabled (-g)
@@ -11910,6 +11850,14 @@ Midatronics.menu.dbg.enable_log.build.flags.debug=
 Midatronics.menu.dbg.enable_all=Core Logs and Symbols Enabled (-g)
 Midatronics.menu.dbg.enable_all.build.flags.debug=-g
 
+Geekaixpress.menu.dbg.none=None
+Geekaixpress.menu.dbg.enable_sym=Symbols Enabled (-g)
+Geekaixpress.menu.dbg.enable_sym.build.flags.debug=-g -DNDEBUG
+Geekaixpress.menu.dbg.enable_log=Core logs Enabled
+Geekaixpress.menu.dbg.enable_log.build.flags.debug=
+Geekaixpress.menu.dbg.enable_all=Core Logs and Symbols Enabled (-g)
+Geekaixpress.menu.dbg.enable_all.build.flags.debug=-g
+
 # C Runtime Library
 Nucleo_144.menu.rtlib.nano=Newlib Nano (default)
 Nucleo_144.menu.rtlib.nanofp=Newlib Nano + Float Printf
@@ -11970,16 +11918,6 @@ STM32MP1.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
 STM32MP1.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
 STM32MP1.menu.rtlib.full=Newlib Standard
 STM32MP1.menu.rtlib.full.build.flags.ldspecs=
-
-GenC0.menu.rtlib.nano=Newlib Nano (default)
-GenC0.menu.rtlib.nanofp=Newlib Nano + Float Printf
-GenC0.menu.rtlib.nanofp.build.flags.ldspecs=--specs=nano.specs -u _printf_float
-GenC0.menu.rtlib.nanofs=Newlib Nano + Float Scanf
-GenC0.menu.rtlib.nanofs.build.flags.ldspecs=--specs=nano.specs -u _scanf_float
-GenC0.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
-GenC0.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
-GenC0.menu.rtlib.full=Newlib Standard
-GenC0.menu.rtlib.full.build.flags.ldspecs=
 
 GenF0.menu.rtlib.nano=Newlib Nano (default)
 GenF0.menu.rtlib.nanofp=Newlib Nano + Float Printf
@@ -12220,3 +12158,13 @@ Midatronics.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
 Midatronics.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
 Midatronics.menu.rtlib.full=Newlib Standard
 Midatronics.menu.rtlib.full.build.flags.ldspecs=
+
+Geekaixpress.menu.rtlib.nano=Newlib Nano (default)
+Geekaixpress.menu.rtlib.nanofp=Newlib Nano + Float Printf
+Geekaixpress.menu.rtlib.nanofp.build.flags.ldspecs=--specs=nano.specs -u _printf_float
+Geekaixpress.menu.rtlib.nanofs=Newlib Nano + Float Scanf
+Geekaixpress.menu.rtlib.nanofs.build.flags.ldspecs=--specs=nano.specs -u _scanf_float
+Geekaixpress.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
+Geekaixpress.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
+Geekaixpress.menu.rtlib.full=Newlib Standard
+Geekaixpress.menu.rtlib.full.build.flags.ldspecs=
